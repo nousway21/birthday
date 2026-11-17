@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#f8e9ed">
+    <meta name="description" content="Siz uchun tayyorlangan maxsus sovg'a.">
+
+    <title>19 November — Maxsus sovg'a</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="experience">
+
+        <!-- DECORATIVE BACKGROUND -->
+        <div class="background-glow"></div>
+
+        <!-- ACCESS SCREEN -->
+        <section class="screen access-screen active" id="accessScreen">
+
+            <div class="invitation-card">
+
+                <div class="card-decoration decoration-top">
+                    ✦
+                </div>
+
+                <div class="card-content">
+
+                    <span class="eyebrow">
+                        SIZ UCHUN MAXSUS TAYYORLANDI
+                    </span>
+
+                    <div class="floral-divider">
+                        <span></span>
+                        <i>❀</i>
+                        <span></span>
+                    </div>
+
+                    <h1>
+                        Ba'zi lahzalar
+                        <em>qalbda abadiy qoladi.</em>
+                    </h1>
+
+                    <p class="intro-description">
+                        Siz uchun mehr va e'tibor bilan
+                        tayyorlangan kichik bir sovg'a bor.
+                    </p>
+
+                    <form class="access-form" id="accessForm">
+
+                        <label for="accessCode">
+                            MAXSUS KODNI KIRITING
+                        </label>
+
+                        <div class="input-wrapper">
+
+                            <input
+                                type="password"
+                                id="accessCode"
+                                placeholder="••••"
+                                maxlength="4"
+                                inputmode="numeric"
+                                autocomplete="off"
+                                required
+                            >
+
+                            <button type="submit" aria-label="Davom etish">
+                                <span>→</span>
+                            </button>
+
+                        </div>
+
+                        <p class="error-message" id="errorMessage">
+                            Kod noto'g'ri. Qayta urinib ko'ring.
+                        </p>
+
+                    </form>
+
+                    <div class="card-footer">
+                        <span>19 · 11 · 2026</span>
+                        <span>♡</span>
+                        <span>MEHR BILAN</span>
+                    </div>
+
+                </div>
+
+                <div class="card-decoration decoration-bottom">
+                    ✦
+                </div>
+
+            </div>
+
+            <p class="outside-caption">
+                BU SAHIFA FAQAT SIZ UCHUN
+            </p>
+
+        </section>
+
+
+        <!-- COUNTDOWN SCREEN -->
+        <section class="screen countdown-screen" id="countdownScreen">
+
+            <div class="countdown-card">
+
+                <span class="eyebrow">
+                    KUTILGAN LAHZA YAQINLASHMOQDA
+                </span>
+
+                <div class="floral-divider">
+                    <span></span>
+                    <i>❀</i>
+                    <span></span>
+                </div>
+
+                <h2>
+                    Eng go'zal kun
+                    <em>boshlanishiga...</em>
+                </h2>
+
+                <p class="countdown-description">
+                    Siz uchun unutilmas bo'lishini istagan
+                    ushbu lahzagacha qolgan vaqt:
+                </p>
+
+                <div class="countdown" id="countdown">
+
+                    <div class="time-box">
+                        <span id="days">00</span>
+                        <small>KUN</small>
+                    </div>
+
+                    <div class="time-separator">:</div>
+
+                    <div class="time-box">
+                        <span id="hours">00</span>
+                        <small>SOAT</small>
+                    </div>
+
+                    <div class="time-separator">:</div>
+
+                    <div class="time-box">
+                        <span id="minutes">00</span>
+                        <small>DAQIQA</small>
+                    </div>
+
+                    <div class="time-separator">:</div>
+
+                    <div class="time-box">
+                        <span id="seconds">00</span>
+                        <small>SONIYA</small>
+                    </div>
+
+                </div>
+
+                <div class="countdown-footer">
+
+                    <span>19 NOYABR</span>
+
+                    <span class="footer-flower">✿</span>
+
+                    <span>2026</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CELEBRATION SCREEN -->
+        <section class="screen celebration-screen" id="celebrationScreen">
+
+            <canvas id="fireworks"></canvas>
+
+            <div class="celebration-content">
+
+                <span class="eyebrow">
+                    BUGUN SIZNING KUNINGIZ
+                </span>
+
+                <div class="floral-divider">
+                    <span></span>
+                    <i>❀</i>
+                    <span></span>
+                </div>
+
+                <h2>
+                    Tug'ilgan kuningiz
+                    <em>muborak bo'lsin!</em>
+                </h2>
+
+                <p>
+                    Aziz ammajon, bugungi kuningiz
+                    quvonch, mehr va go'zal lahzalarga
+                    boy bo'lsin.
+                </p>
+
+                <button class="celebration-heart" id="heartButton" type="button" aria-label="Davom etish">♡</button>
+
+            </div>
+
+        </section>
+
+        <!-- MATHEMATICS QUIZ SCREEN -->
+        <section class="screen quiz-screen" id="mathScreen">
+            <div class="quiz-card">
+                <span class="eyebrow">KICHIK SINOV · 01</span>
+                <div class="floral-divider"><span></span><i>❀</i><span></span></div>
+                <h2>Matematika</h2>
+                <p class="quiz-description">Quyidagi tenglamada x ning qiymatini toping:</p>
+                <div class="quiz-question">3x + 5 = 20</div>
+                <div class="quiz-options" id="mathOptions">
+                    <button class="quiz-option" type="button" data-answer="4">4</button>
+                    <button class="quiz-option" type="button" data-answer="5">5</button>
+                    <button class="quiz-option" type="button" data-answer="6">6</button>
+                </div>
+                <p class="quiz-feedback" id="mathFeedback" aria-live="polite"></p>
+                <button class="soft-button" id="mathNext" type="button" hidden>Davom etish <span>→</span></button>
+            </div>
+        </section>
+
+        <!-- PHYSICS QUIZ SCREEN -->
+        <section class="screen quiz-screen" id="physicsScreen">
+            <div class="quiz-card">
+                <span class="eyebrow">KICHIK SINOV · 02</span>
+                <div class="floral-divider"><span></span><i>❀</i><span></span></div>
+                <h2>Fizika</h2>
+                <p class="quiz-description">Jism 2 sekundda 10 metr yo‘l bosdi. Uning tezligi qancha?</p>
+                <div class="quiz-options" id="physicsOptions">
+                    <button class="quiz-option" type="button" data-answer="2">2 m/s</button>
+                    <button class="quiz-option" type="button" data-answer="5">5 m/s</button>
+                    <button class="quiz-option" type="button" data-answer="10">10 m/s</button>
+                </div>
+                <p class="quiz-feedback" id="physicsFeedback" aria-live="polite"></p>
+                <button class="soft-button" id="physicsNext" type="button" hidden>Davom etish <span>→</span></button>
+            </div>
+        </section>
+
+        <!-- FINGERPRINT SCREEN -->
+        <section class="screen fingerprint-screen" id="fingerprintScreen">
+            <div class="quiz-card fingerprint-card">
+                <span class="eyebrow">ENG SAMIMIY SO‘ZLAR</span>
+                <div class="floral-divider"><span></span><i>❀</i><span></span></div>
+                <h2>Yuragingizni <em>ushlang...</em></h2>
+                <p class="quiz-description">Siz uchun yana bir kichik sir tayyorladim.</p>
+                <button class="fingerprint-button" id="fingerprintButton" type="button" aria-label="Barmoq izini bosib turing">
+                    <span aria-hidden="true">◎</span>
+                </button>
+                <p class="fingerprint-hint" id="fingerprintHint">Bosib turing</p>
+            </div>
+        </section>
+
+        <!-- FINAL LETTER SCREEN -->
+        <section class="screen letter-screen" id="letterScreen">
+            <article class="letter-card">
+                <span class="eyebrow">BUTUN QALBIMDAN</span>
+                <div class="floral-divider"><span></span><i>❀</i><span></span></div>
+                <h2>Ammajon, <em>sizga...</em></h2>
+                <div class="letter-copy">
+                    <p>Ammajon, ba’zi insonlarga rahmat aytish uchun so‘zlar kamlik qiladi. Siz ham men uchun ana shunday insonlardan birisiz.</p>
+                    <p>Mehringiz, g‘amxo‘rligingiz, bergan tarbiyangiz va har bir yaxshi maslahatingiz uchun sizga chin qalbimdan rahmat. Hayotimda borligingizning o‘zi men uchun katta baxt.</p>
+                    <p>Doimo sog‘-salomat bo‘ling. Yuzingizdan tabassum, qalbingizdan xotirjamlik arimasin. Barcha ezgu niyatlaringiz amalga oshsin. Sizni juda qadrlayman!</p>
+                </div>
+                <div class="letter-signature">Mehr bilan, sizni yaxshi ko‘radigan jiyaningiz ♡</div>
+            </article>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
